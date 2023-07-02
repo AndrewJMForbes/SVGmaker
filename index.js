@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { Triangle, Square, Circle } = require('./lib/shapes');
-const create = require('./createLogo')
+const create = require('./createLogo.js')
 
 function init() {
   inquirer.prompt([
